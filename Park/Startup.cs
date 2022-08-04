@@ -109,7 +109,14 @@ namespace Park
             //    var cmlCommentFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
             //    options.IncludeXmlComments(cmlCommentFullPath);
             //});
-            services.AddControllers();
+
+            //services.AddControllers();
+            // API Json response to C# Object with capital case properties first letter
+            services.AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.PropertyNamingPolicy = null;
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
