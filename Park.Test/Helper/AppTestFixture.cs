@@ -16,14 +16,14 @@ namespace Park.Test.Helper
     //  https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-6.0&viewFallbackFrom=aspnetcore-3.0#basic-tests-with-the-default-webapplicationfactory
     ///
 
-
+/*
     /// <summary>
     /// Create Host Builder
     /// </summary>
     //}
     public class AppTestFixture : WebApplicationFactory<Startup>
     {
-        protected override IHostBuilder CreateHostBuilder()
+*//*        protected override IHostBuilder CreateHostBuilder()
         {
             var builder = Host.CreateDefaultBuilder().
                 ConfigureWebHostDefaults(webBuilder =>
@@ -36,7 +36,7 @@ namespace Park.Test.Helper
                 });
 
             return builder;
-        }
+        }*//*
 
 
 
@@ -60,6 +60,6 @@ namespace Park.Test.Helper
 
 
     }
-
+*/
 
 }

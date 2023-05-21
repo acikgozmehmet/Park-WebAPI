@@ -1,0 +1,12 @@
+﻿{
+  "Env": "local",
+  "API": {
+    "QA": {
+      "Host": "https://localhost:5001"
+    },
+    "Authentication": {
+      "username": "test",
+      "password": "test"
+    }
+  }
+}
